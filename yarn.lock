@@ -4855,19 +4855,19 @@ graphql-iso-date@^3.6.1:
   resolved "https://registry.yarnpkg.com/graphql-iso-date/-/graphql-iso-date-3.6.1.tgz#bd2d0dc886e0f954cbbbc496bbf1d480b57ffa96"
   integrity sha512-AwFGIuYMJQXOEAgRlJlFL4H1ncFM8n8XmoVDTNypNOZyQ8LFDG2ppMFlsS862BSTCDcSUfHp8PD3/uJhv7t59Q==
 
-graphql-playground-html@^1.6.27:
-  version "1.6.27"
-  resolved "https://registry.yarnpkg.com/graphql-playground-html/-/graphql-playground-html-1.6.27.tgz#4ead6ef79c275184bbc90f3d69b4f764b5192090"
-  integrity sha512-f+M74WgZVwoY7CyT3teKpS1W/Zg6p0X4SbQT32oWz8QQ62ipQV0c+Xc/SvAwiBMxVgrbRsw3Yqvz8XdX56e4xw==
+graphql-playground-html@^1.6.28:
+  version "1.6.28"
+  resolved "https://registry.yarnpkg.com/graphql-playground-html/-/graphql-playground-html-1.6.28.tgz#4a7c2e368c3f44deb7e86b70d3782b65edc64213"
+  integrity sha512-22uwTEGjZg0h9rYcM7WspcMPVsixAE8m56tNzwjGr2Y3pNY7OctbsMkJ3EPtPcL6ZdUpzsa4rMgYR54BGmTrpQ==
   dependencies:
     xss "^1.0.6"
 
-graphql-playground-middleware-koa@^1.6.0:
-  version "1.6.19"
-  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-koa/-/graphql-playground-middleware-koa-1.6.19.tgz#7b28efab0375a2cf77f6effb9b64cd3ac685f904"
-  integrity sha512-8dpQmKBGCVmf36G0QqEbWaIiRHZa5iaeB2DEyE3PBlWvYGXgC01CLrxwvGTkBqZqGFH2zNUP20u1uiRmeWxXvQ==
+graphql-playground-middleware-koa@^1.6.19:
+  version "1.6.20"
+  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-koa/-/graphql-playground-middleware-koa-1.6.20.tgz#123904a4807a0a71eeaed2756a238e6645355972"
+  integrity sha512-SNKXMdjMlugPJUS71uAsw4dxub8u9Znv811TkwYvFs7qgtn7za0kyXgKf0glPlDZ8l1TFLZ0J3AdIO6kcFxEnw==
   dependencies:
-    graphql-playground-html "^1.6.27"
+    graphql-playground-html "^1.6.28"
 
 graphql-subscriptions@^1.0.0:
   version "1.1.0"
@@ -9552,10 +9552,10 @@ strapi-plugin-email@3.1.4:
     strapi-provider-email-sendmail "3.1.4"
     strapi-utils "3.1.4"
 
-strapi-plugin-graphql@3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.1.4.tgz#019f7bd262332ff9fceed24ff24d72e361eddd1c"
-  integrity sha512-q0Cg+JcC5ONVJzmqMc/gp1Tooftf+D0RX0sPitzq76I+E7cdLTDIk+xqmtBWHsHxXd3JNOzIR1yOqKgvi4Mhtg==
+strapi-plugin-graphql@3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.1.5.tgz#53a84705fceeeeea07e44235574b65bc58b373dc"
+  integrity sha512-yZkZRRBFljwTCxmRUMBeGsHvzaONQc1xEiKt2KlqyU5vI8jgcsc+024EmmpbkknQobQ0jzYTarFvEJ0rqOxUWA==
   dependencies:
     "@apollo/federation" "^0.15.0"
     apollo-server-koa "2.16.0"
@@ -9564,14 +9564,14 @@ strapi-plugin-graphql@3.1.4:
     graphql "^14.3.0"
     graphql-depth-limit "^1.1.0"
     graphql-iso-date "^3.6.1"
-    graphql-playground-middleware-koa "^1.6.0"
+    graphql-playground-middleware-koa "^1.6.19"
     graphql-tools "4.0.6"
     graphql-type-json "0.3.1"
     graphql-type-long "^0.1.1"
     koa-compose "^4.1.0"
     lodash "4.17.19"
     pluralize "^8.0.0"
-    strapi-utils "3.1.4"
+    strapi-utils "3.1.5"
 
 strapi-plugin-upload@3.1.4:
   version "3.1.4"
@@ -9645,6 +9645,18 @@ strapi-utils@3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.1.4.tgz#77a5d03ef9de8da5653f3e9275d24e8a062a6266"
   integrity sha512-BcRW6xcwW0glisgJ3VR+XkakV9Bza5JLY9+ndgo/yjmCthjLobUO/Dc/9T35eCkyReXYweCquW/HoPkOMbdm9g==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.19"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.28.1"
+
+strapi-utils@3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.1.5.tgz#e2aacec15c9dae49c0beda849744d2bb630dfacd"
+  integrity sha512-Tdyffk24G+hT6e248Jmj36YzNnZB0tOTSqex3Tc0wPZYK8R//7BlaHekdBtekUMAqaKJv4ki/0qVop0VeA8gJQ==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
