@@ -1,0 +1,47 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "09:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: strapi-plugin-upload
+    versions:
+    - 3.4.1
+    - 3.4.5
+  - dependency-name: strapi
+    versions:
+    - 3.4.1
+    - 3.4.5
+  - dependency-name: strapi-utils
+    versions:
+    - 3.4.1
+    - 3.4.5
+  - dependency-name: strapi-plugin-users-permissions
+    versions:
+    - 3.4.1
+    - 3.4.5
+  - dependency-name: knex
+    versions:
+    - 0.21.15
+    - 0.21.17
+  - dependency-name: strapi-plugin-email
+    versions:
+    - 3.4.1
+    - 3.4.5
+  - dependency-name: strapi-plugin-graphql
+    versions:
+    - 3.4.1
+    - 3.4.5
+  - dependency-name: strapi-admin
+    versions:
+    - 3.4.1
+    - 3.4.5
+  - dependency-name: urijs
+    versions:
+    - 1.19.5
+  - dependency-name: highlight.js
+    versions:
+    - 10.4.1
